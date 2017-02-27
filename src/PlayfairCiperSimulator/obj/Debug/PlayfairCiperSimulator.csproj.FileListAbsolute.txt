@@ -7,3 +7,12 @@ C:\Users\DELL\Desktop\PlayfairCiperSimulator\PlayfairCiperSimulator\obj\Debug\Pl
 C:\Users\DELL\Desktop\PlayfairCiperSimulator\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.exe
 C:\Users\DELL\Desktop\PlayfairCiperSimulator\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.pdb
 C:\Users\DELL\Desktop\PlayfairCiperSimulator\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.Simulator.resources
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\PlayfairCiperSimulator.exe.config
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.exe
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.pdb
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\PlayfairCiperSimulator.exe
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\PlayfairCiperSimulator.pdb
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.Simulator.resources
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.Properties.Resources.resources
+C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.csproj.GenerateResource.Cache
