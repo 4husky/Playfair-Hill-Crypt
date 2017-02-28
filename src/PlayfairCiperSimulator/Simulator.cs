@@ -98,14 +98,51 @@ namespace PlayfairCiperSimulator
             getIndex(letter1, r1, c1, 5);
             getIndex(letter2, r2, c2, 5);
             //Gọi các hàm xử lý phù hợp dựa vào index
-
+            if (r1 == r2 && c1 == c2)
+                MessageBox.Show("Lỗi tính toán,2 ký tự giống nhau trong pre-formatting text");
+            else
+            {
+                //Gọi các hàm xử lý
+            }
         }
+        //Các hàm sẽ lấy tọa độ chữ cái cần mã hóa và xử lý, xuất kết quả vào biến cipher1 & 2.
         //Hàm xử lý nếu 2 chữ cái cùng hàng
-
+        public void SameRow(string cipher1,int c1,string cipher2,int c2,int Row)
+        {
+            //Hàm xử lý cùng hàng, vì cùng hàng nên chỉ cần xem xét dịch chuyển cột
+            c1++; c2++;
+            if (c1 < c2)
+            {
+                if (c2 == 5)
+                    c2 = 0;
+            }
+            else if( c1 > c2)
+            {
+                if (c1 == 5)
+                    c1 = 0;
+            }
+            cipher1 = _matrix55[Row, c1];
+            cipher2 = _matrix55[Row, c2];
+        }
         //Hàm xử lý nếu 2 chữ cái cùng cột
-
+        public void SameColumn(string cipher1,int r1,string cipher2,int r2,int Column)
+        {
+            r1++; r2++;
+            if(r1 < r2)
+            {
+                if (r2 == 5)
+                    r2 = 0;
+            }
+            else if( r1 > r2)
+            {
+                if (r1 == 5)
+                    r1 = 0;
+            }
+            cipher1 = _matrix55[r1, Column];
+            cipher2 = _matrix55[r2, Column];
+        }
         //Hàm xử lý nếu 2 chữ cái tạo thành hình chữ nhật
-
+        
         #endregion
     }
 }
