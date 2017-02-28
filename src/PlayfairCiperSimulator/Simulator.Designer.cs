@@ -16,6 +16,8 @@
             if (disposing && (components != null))
             {
                 components.Dispose();
+                //This project is created by Khoi Cao Minh and his teamate :
+                //Hai Thanh Bui,Duyen NGuyen Trung and Linh Vo Cao Thuy
             }
             base.Dispose(disposing);
         }

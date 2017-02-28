@@ -16,7 +16,7 @@ namespace PlayfairCiperSimulator
         string[,] _matrix66 = new string[6, 6]; //Ma trận 6x6 hiển thị trên UI + Chứa ma trận sau khi đã thêm key
         string[] alphabet55 = new string[25] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "K", "L", "M",
             "N", "O", "P", "Q", "R", "S", "T", "U", "V", "Q", "X", "Y", "Z" };
-        //Chuỗi pre-formatting dùng để test hàm mã hóa.
+        //Chuỗi pre-formatting dùng để test hàm mã hóa- chuỗi này chỉ dùng để test -
         string[] pre_formatTEXT =new string[18] { "A", "N", "T", "O", "A", "N", "M", "A", "N", "G", "M", "A", "Y", "T", "I", "N", "H", "X" };
         //string[] alphabet66 =new string[36] //dùng cả chữ J và thêm số từ 0 tới 9     
         //Hàm loop kết quả ra UI cho ma trận 5x5
@@ -75,9 +75,31 @@ namespace PlayfairCiperSimulator
 
         #region Thuật toán mã hóa
         //Hàm lấy ra index của chữ cái dựa vào ma trận 
-
+        public void getIndex(string input,int Row,int Column,int matrixlength)
+        {
+            Row = Column = -1;
+            for(int i=0;i<matrixlength;i++)
+                for(int j=0;j<matrixlength;j++)
+                    if(_matrix55[i,j]==input)
+                    {
+                        Row = i;
+                        Column=j;
+                    }
+             //                      
+        }
         //Hàm so sánh 2 index và chọn cách giải mã phù hợp ( nếu 2 index trùng => input vào bị lỗi => thoát và báo error)
+        public void Encrypt(string letter1,string letter2,string cipher1,string cipher2)
+        {
+            //Tạo biến lưu trữ hàng và cột- row & column
+            int r1 = -1;
+            int r2 = -1;
+            int c1 = -1;
+            int c2 = -1;
+            getIndex(letter1, r1, c1, 5);
+            getIndex(letter2, r2, c2, 5);
+            //Gọi các hàm xử lý phù hợp dựa vào index
 
+        }
         //Hàm xử lý nếu 2 chữ cái cùng hàng
 
         //Hàm xử lý nếu 2 chữ cái cùng cột
