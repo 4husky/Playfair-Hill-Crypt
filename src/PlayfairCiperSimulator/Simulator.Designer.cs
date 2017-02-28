@@ -30,54 +30,62 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.Dencrypt = new System.Windows.Forms.Button();
+            this.btnEncrypt = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lbl55 = new System.Windows.Forms.Label();
+            this.lbl54 = new System.Windows.Forms.Label();
+            this.lbl53 = new System.Windows.Forms.Label();
+            this.lbl52 = new System.Windows.Forms.Label();
+            this.lbl51 = new System.Windows.Forms.Label();
+            this.lbl50 = new System.Windows.Forms.Label();
+            this.lbl45 = new System.Windows.Forms.Label();
+            this.lbl44 = new System.Windows.Forms.Label();
+            this.lbl43 = new System.Windows.Forms.Label();
+            this.lbl42 = new System.Windows.Forms.Label();
+            this.lbl41 = new System.Windows.Forms.Label();
+            this.lbl40 = new System.Windows.Forms.Label();
+            this.lbl35 = new System.Windows.Forms.Label();
+            this.lbl34 = new System.Windows.Forms.Label();
+            this.lbl33 = new System.Windows.Forms.Label();
+            this.lbl32 = new System.Windows.Forms.Label();
+            this.lbl31 = new System.Windows.Forms.Label();
+            this.lbl30 = new System.Windows.Forms.Label();
+            this.lbl25 = new System.Windows.Forms.Label();
+            this.lbl24 = new System.Windows.Forms.Label();
+            this.lbl23 = new System.Windows.Forms.Label();
+            this.lbl22 = new System.Windows.Forms.Label();
+            this.lbl21 = new System.Windows.Forms.Label();
+            this.lbl20 = new System.Windows.Forms.Label();
+            this.lbl15 = new System.Windows.Forms.Label();
+            this.lbl14 = new System.Windows.Forms.Label();
+            this.lbl13 = new System.Windows.Forms.Label();
+            this.lbl12 = new System.Windows.Forms.Label();
+            this.lbl11 = new System.Windows.Forms.Label();
+            this.lbl10 = new System.Windows.Forms.Label();
+            this.lbl05 = new System.Windows.Forms.Label();
+            this.lbl04 = new System.Windows.Forms.Label();
+            this.lbl03 = new System.Windows.Forms.Label();
+            this.lbl02 = new System.Windows.Forms.Label();
+            this.lbl01 = new System.Windows.Forms.Label();
+            this.lbl00 = new System.Windows.Forms.Label();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.tbKey = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnEncrypt = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.label25 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.lbl06 = new System.Windows.Forms.Label();
-            this.lbl05 = new System.Windows.Forms.Label();
-            this.lbl03 = new System.Windows.Forms.Label();
-            this.lbl02 = new System.Windows.Forms.Label();
-            this.lbl01 = new System.Windows.Forms.Label();
-            this.lbl00 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnImport = new System.Windows.Forms.Button();
             this.tbEncrypt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tbPreformatting = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tbInput = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -92,7 +100,7 @@
             this.tabControl1.Location = new System.Drawing.Point(1, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(499, 606);
+            this.tabControl1.Size = new System.Drawing.Size(499, 636);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -106,168 +114,481 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(491, 580);
+            this.tabPage1.Size = new System.Drawing.Size(491, 610);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Playfair";
             // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(491, 580);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Hill";
-            // 
-            // label29
-            // 
-            this.label29.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label29.Location = new System.Drawing.Point(282, 226);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(35, 30);
-            this.label29.TabIndex = 29;
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label30
-            // 
-            this.label30.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label30.Location = new System.Drawing.Point(225, 226);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(35, 30);
-            this.label30.TabIndex = 28;
-            this.label30.Text = "E";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            this.label31.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label31.Location = new System.Drawing.Point(173, 226);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(35, 30);
-            this.label31.TabIndex = 27;
-            this.label31.Text = "D";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label32
-            // 
-            this.label32.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label32.Location = new System.Drawing.Point(121, 226);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(35, 30);
-            this.label32.TabIndex = 26;
-            this.label32.Text = "C";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label33
-            // 
-            this.label33.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label33.Location = new System.Drawing.Point(70, 226);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(35, 30);
-            this.label33.TabIndex = 25;
-            this.label33.Text = "B";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label34
-            // 
-            this.label34.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label34.Location = new System.Drawing.Point(23, 226);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(35, 30);
-            this.label34.TabIndex = 24;
-            this.label34.Text = "A";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label17
-            // 
-            this.label17.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label17.Location = new System.Drawing.Point(282, 179);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(35, 30);
-            this.label17.TabIndex = 23;
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label18.Location = new System.Drawing.Point(225, 179);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(35, 30);
-            this.label18.TabIndex = 22;
-            this.label18.Text = "E";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label19.Location = new System.Drawing.Point(173, 179);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(35, 30);
-            this.label19.TabIndex = 21;
-            this.label19.Text = "D";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label20
-            // 
-            this.label20.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label20.Location = new System.Drawing.Point(121, 179);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(35, 30);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "C";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label21.Location = new System.Drawing.Point(70, 179);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(35, 30);
-            this.label21.TabIndex = 19;
-            this.label21.Text = "B";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label22
-            // 
-            this.label22.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label22.Location = new System.Drawing.Point(23, 179);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(35, 30);
-            this.label22.TabIndex = 18;
-            this.label22.Text = "A";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label23
-            // 
-            this.label23.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label23.Location = new System.Drawing.Point(282, 128);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(35, 30);
-            this.label23.TabIndex = 17;
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Dencrypt
             // 
-            this.Dencrypt.Location = new System.Drawing.Point(152, 534);
+            this.Dencrypt.Location = new System.Drawing.Point(152, 564);
             this.Dencrypt.Name = "Dencrypt";
             this.Dencrypt.Size = new System.Drawing.Size(125, 38);
             this.Dencrypt.TabIndex = 12;
             this.Dencrypt.Text = "Decrypt";
             this.Dencrypt.UseVisualStyleBackColor = true;
+            // 
+            // btnEncrypt
+            // 
+            this.btnEncrypt.Location = new System.Drawing.Point(15, 564);
+            this.btnEncrypt.Name = "btnEncrypt";
+            this.btnEncrypt.Size = new System.Drawing.Size(123, 38);
+            this.btnEncrypt.TabIndex = 11;
+            this.btnEncrypt.Text = "Encrypt";
+            this.btnEncrypt.UseVisualStyleBackColor = true;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(387, 564);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(98, 38);
+            this.btnCancel.TabIndex = 13;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.groupBox3);
+            this.groupBox2.Controls.Add(this.radioButton6);
+            this.groupBox2.Controls.Add(this.radioButton5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.tbKey);
+            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Location = new System.Drawing.Point(6, 151);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(473, 407);
+            this.groupBox2.TabIndex = 10;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Playfair key";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.lbl55);
+            this.groupBox3.Controls.Add(this.lbl54);
+            this.groupBox3.Controls.Add(this.lbl53);
+            this.groupBox3.Controls.Add(this.lbl52);
+            this.groupBox3.Controls.Add(this.lbl51);
+            this.groupBox3.Controls.Add(this.lbl50);
+            this.groupBox3.Controls.Add(this.lbl45);
+            this.groupBox3.Controls.Add(this.lbl44);
+            this.groupBox3.Controls.Add(this.lbl43);
+            this.groupBox3.Controls.Add(this.lbl42);
+            this.groupBox3.Controls.Add(this.lbl41);
+            this.groupBox3.Controls.Add(this.lbl40);
+            this.groupBox3.Controls.Add(this.lbl35);
+            this.groupBox3.Controls.Add(this.lbl34);
+            this.groupBox3.Controls.Add(this.lbl33);
+            this.groupBox3.Controls.Add(this.lbl32);
+            this.groupBox3.Controls.Add(this.lbl31);
+            this.groupBox3.Controls.Add(this.lbl30);
+            this.groupBox3.Controls.Add(this.lbl25);
+            this.groupBox3.Controls.Add(this.lbl24);
+            this.groupBox3.Controls.Add(this.lbl23);
+            this.groupBox3.Controls.Add(this.lbl22);
+            this.groupBox3.Controls.Add(this.lbl21);
+            this.groupBox3.Controls.Add(this.lbl20);
+            this.groupBox3.Controls.Add(this.lbl15);
+            this.groupBox3.Controls.Add(this.lbl14);
+            this.groupBox3.Controls.Add(this.lbl13);
+            this.groupBox3.Controls.Add(this.lbl12);
+            this.groupBox3.Controls.Add(this.lbl11);
+            this.groupBox3.Controls.Add(this.lbl10);
+            this.groupBox3.Controls.Add(this.lbl05);
+            this.groupBox3.Controls.Add(this.lbl04);
+            this.groupBox3.Controls.Add(this.lbl03);
+            this.groupBox3.Controls.Add(this.lbl02);
+            this.groupBox3.Controls.Add(this.lbl01);
+            this.groupBox3.Controls.Add(this.lbl00);
+            this.groupBox3.Location = new System.Drawing.Point(11, 88);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(374, 319);
+            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Key matrix";
+            // 
+            // lbl55
+            // 
+            this.lbl55.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl55.Location = new System.Drawing.Point(282, 273);
+            this.lbl55.Name = "lbl55";
+            this.lbl55.Size = new System.Drawing.Size(35, 30);
+            this.lbl55.TabIndex = 35;
+            this.lbl55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl54
+            // 
+            this.lbl54.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl54.Location = new System.Drawing.Point(225, 273);
+            this.lbl54.Name = "lbl54";
+            this.lbl54.Size = new System.Drawing.Size(35, 30);
+            this.lbl54.TabIndex = 34;
+            this.lbl54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl53
+            // 
+            this.lbl53.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl53.Location = new System.Drawing.Point(173, 273);
+            this.lbl53.Name = "lbl53";
+            this.lbl53.Size = new System.Drawing.Size(35, 30);
+            this.lbl53.TabIndex = 33;
+            this.lbl53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl52
+            // 
+            this.lbl52.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl52.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl52.Location = new System.Drawing.Point(121, 273);
+            this.lbl52.Name = "lbl52";
+            this.lbl52.Size = new System.Drawing.Size(35, 30);
+            this.lbl52.TabIndex = 32;
+            this.lbl52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl51
+            // 
+            this.lbl51.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl51.Location = new System.Drawing.Point(70, 273);
+            this.lbl51.Name = "lbl51";
+            this.lbl51.Size = new System.Drawing.Size(35, 30);
+            this.lbl51.TabIndex = 31;
+            this.lbl51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl50
+            // 
+            this.lbl50.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl50.Location = new System.Drawing.Point(23, 273);
+            this.lbl50.Name = "lbl50";
+            this.lbl50.Size = new System.Drawing.Size(35, 30);
+            this.lbl50.TabIndex = 30;
+            this.lbl50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl45
+            // 
+            this.lbl45.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl45.Location = new System.Drawing.Point(282, 226);
+            this.lbl45.Name = "lbl45";
+            this.lbl45.Size = new System.Drawing.Size(35, 30);
+            this.lbl45.TabIndex = 29;
+            this.lbl45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl44
+            // 
+            this.lbl44.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl44.Location = new System.Drawing.Point(225, 226);
+            this.lbl44.Name = "lbl44";
+            this.lbl44.Size = new System.Drawing.Size(35, 30);
+            this.lbl44.TabIndex = 28;
+            this.lbl44.Text = "Z";
+            this.lbl44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl43
+            // 
+            this.lbl43.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl43.Location = new System.Drawing.Point(173, 226);
+            this.lbl43.Name = "lbl43";
+            this.lbl43.Size = new System.Drawing.Size(35, 30);
+            this.lbl43.TabIndex = 27;
+            this.lbl43.Text = "Y";
+            this.lbl43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl42
+            // 
+            this.lbl42.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl42.Location = new System.Drawing.Point(121, 226);
+            this.lbl42.Name = "lbl42";
+            this.lbl42.Size = new System.Drawing.Size(35, 30);
+            this.lbl42.TabIndex = 26;
+            this.lbl42.Text = "X";
+            this.lbl42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl41
+            // 
+            this.lbl41.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl41.Location = new System.Drawing.Point(70, 226);
+            this.lbl41.Name = "lbl41";
+            this.lbl41.Size = new System.Drawing.Size(35, 30);
+            this.lbl41.TabIndex = 25;
+            this.lbl41.Text = "W";
+            this.lbl41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl40
+            // 
+            this.lbl40.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl40.Location = new System.Drawing.Point(23, 226);
+            this.lbl40.Name = "lbl40";
+            this.lbl40.Size = new System.Drawing.Size(35, 30);
+            this.lbl40.TabIndex = 24;
+            this.lbl40.Text = "V";
+            this.lbl40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl35
+            // 
+            this.lbl35.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl35.Location = new System.Drawing.Point(282, 179);
+            this.lbl35.Name = "lbl35";
+            this.lbl35.Size = new System.Drawing.Size(35, 30);
+            this.lbl35.TabIndex = 23;
+            this.lbl35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl34
+            // 
+            this.lbl34.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl34.Location = new System.Drawing.Point(225, 179);
+            this.lbl34.Name = "lbl34";
+            this.lbl34.Size = new System.Drawing.Size(35, 30);
+            this.lbl34.TabIndex = 22;
+            this.lbl34.Text = "U";
+            this.lbl34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl33
+            // 
+            this.lbl33.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl33.Location = new System.Drawing.Point(173, 179);
+            this.lbl33.Name = "lbl33";
+            this.lbl33.Size = new System.Drawing.Size(35, 30);
+            this.lbl33.TabIndex = 21;
+            this.lbl33.Text = "T";
+            this.lbl33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl32
+            // 
+            this.lbl32.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl32.Location = new System.Drawing.Point(121, 179);
+            this.lbl32.Name = "lbl32";
+            this.lbl32.Size = new System.Drawing.Size(35, 30);
+            this.lbl32.TabIndex = 20;
+            this.lbl32.Text = "S";
+            this.lbl32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl31
+            // 
+            this.lbl31.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl31.Location = new System.Drawing.Point(70, 179);
+            this.lbl31.Name = "lbl31";
+            this.lbl31.Size = new System.Drawing.Size(35, 30);
+            this.lbl31.TabIndex = 19;
+            this.lbl31.Text = "R";
+            this.lbl31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl30
+            // 
+            this.lbl30.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl30.Location = new System.Drawing.Point(23, 179);
+            this.lbl30.Name = "lbl30";
+            this.lbl30.Size = new System.Drawing.Size(35, 30);
+            this.lbl30.TabIndex = 18;
+            this.lbl30.Text = "Q";
+            this.lbl30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl25
+            // 
+            this.lbl25.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl25.Location = new System.Drawing.Point(282, 128);
+            this.lbl25.Name = "lbl25";
+            this.lbl25.Size = new System.Drawing.Size(35, 30);
+            this.lbl25.TabIndex = 17;
+            this.lbl25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl24
+            // 
+            this.lbl24.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl24.Location = new System.Drawing.Point(225, 128);
+            this.lbl24.Name = "lbl24";
+            this.lbl24.Size = new System.Drawing.Size(35, 30);
+            this.lbl24.TabIndex = 16;
+            this.lbl24.Text = "P";
+            this.lbl24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl23
+            // 
+            this.lbl23.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl23.Location = new System.Drawing.Point(173, 128);
+            this.lbl23.Name = "lbl23";
+            this.lbl23.Size = new System.Drawing.Size(35, 30);
+            this.lbl23.TabIndex = 15;
+            this.lbl23.Text = "O";
+            this.lbl23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl22
+            // 
+            this.lbl22.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl22.Location = new System.Drawing.Point(121, 128);
+            this.lbl22.Name = "lbl22";
+            this.lbl22.Size = new System.Drawing.Size(35, 30);
+            this.lbl22.TabIndex = 14;
+            this.lbl22.Text = "N";
+            this.lbl22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl21
+            // 
+            this.lbl21.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl21.Location = new System.Drawing.Point(71, 128);
+            this.lbl21.Name = "lbl21";
+            this.lbl21.Size = new System.Drawing.Size(35, 30);
+            this.lbl21.TabIndex = 13;
+            this.lbl21.Text = "M";
+            this.lbl21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl20
+            // 
+            this.lbl20.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl20.Location = new System.Drawing.Point(23, 128);
+            this.lbl20.Name = "lbl20";
+            this.lbl20.Size = new System.Drawing.Size(35, 30);
+            this.lbl20.TabIndex = 12;
+            this.lbl20.Text = "L";
+            this.lbl20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl15
+            // 
+            this.lbl15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl15.Location = new System.Drawing.Point(282, 81);
+            this.lbl15.Name = "lbl15";
+            this.lbl15.Size = new System.Drawing.Size(35, 30);
+            this.lbl15.TabIndex = 11;
+            this.lbl15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl14
+            // 
+            this.lbl14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl14.Location = new System.Drawing.Point(225, 81);
+            this.lbl14.Name = "lbl14";
+            this.lbl14.Size = new System.Drawing.Size(35, 30);
+            this.lbl14.TabIndex = 10;
+            this.lbl14.Text = "K";
+            this.lbl14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl13
+            // 
+            this.lbl13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl13.Location = new System.Drawing.Point(173, 81);
+            this.lbl13.Name = "lbl13";
+            this.lbl13.Size = new System.Drawing.Size(35, 30);
+            this.lbl13.TabIndex = 9;
+            this.lbl13.Text = "I";
+            this.lbl13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl12
+            // 
+            this.lbl12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl12.Location = new System.Drawing.Point(121, 81);
+            this.lbl12.Name = "lbl12";
+            this.lbl12.Size = new System.Drawing.Size(35, 30);
+            this.lbl12.TabIndex = 8;
+            this.lbl12.Text = "H";
+            this.lbl12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl11
+            // 
+            this.lbl11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl11.Location = new System.Drawing.Point(70, 81);
+            this.lbl11.Name = "lbl11";
+            this.lbl11.Size = new System.Drawing.Size(35, 30);
+            this.lbl11.TabIndex = 7;
+            this.lbl11.Text = "G";
+            this.lbl11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl10
+            // 
+            this.lbl10.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl10.Location = new System.Drawing.Point(23, 81);
+            this.lbl10.Name = "lbl10";
+            this.lbl10.Size = new System.Drawing.Size(35, 30);
+            this.lbl10.TabIndex = 6;
+            this.lbl10.Text = "F";
+            this.lbl10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl05
+            // 
+            this.lbl05.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl05.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl05.Location = new System.Drawing.Point(282, 30);
+            this.lbl05.Name = "lbl05";
+            this.lbl05.Size = new System.Drawing.Size(35, 30);
+            this.lbl05.TabIndex = 5;
+            this.lbl05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl04
+            // 
+            this.lbl04.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl04.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl04.Location = new System.Drawing.Point(225, 30);
+            this.lbl04.Name = "lbl04";
+            this.lbl04.Size = new System.Drawing.Size(35, 30);
+            this.lbl04.TabIndex = 4;
+            this.lbl04.Text = "E";
+            this.lbl04.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl03
+            // 
+            this.lbl03.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl03.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl03.Location = new System.Drawing.Point(173, 30);
+            this.lbl03.Name = "lbl03";
+            this.lbl03.Size = new System.Drawing.Size(35, 30);
+            this.lbl03.TabIndex = 3;
+            this.lbl03.Text = "D";
+            this.lbl03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl02
+            // 
+            this.lbl02.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl02.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl02.Location = new System.Drawing.Point(121, 30);
+            this.lbl02.Name = "lbl02";
+            this.lbl02.Size = new System.Drawing.Size(35, 30);
+            this.lbl02.TabIndex = 2;
+            this.lbl02.Text = "C";
+            this.lbl02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl01
+            // 
+            this.lbl01.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl01.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl01.Location = new System.Drawing.Point(70, 30);
+            this.lbl01.Name = "lbl01";
+            this.lbl01.Size = new System.Drawing.Size(35, 30);
+            this.lbl01.TabIndex = 1;
+            this.lbl01.Text = "B";
+            this.lbl01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl00
+            // 
+            this.lbl00.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl00.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl00.Location = new System.Drawing.Point(23, 30);
+            this.lbl00.Name = "lbl00";
+            this.lbl00.Size = new System.Drawing.Size(35, 30);
+            this.lbl00.TabIndex = 0;
+            this.lbl00.Text = "A";
+            this.lbl00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // radioButton6
             // 
@@ -317,266 +638,11 @@
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // btnEncrypt
-            // 
-            this.btnEncrypt.Location = new System.Drawing.Point(6, 534);
-            this.btnEncrypt.Name = "btnEncrypt";
-            this.btnEncrypt.Size = new System.Drawing.Size(123, 38);
-            this.btnEncrypt.TabIndex = 11;
-            this.btnEncrypt.Text = "Encrypt";
-            this.btnEncrypt.UseVisualStyleBackColor = true;
-            // 
-            // label24
-            // 
-            this.label24.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label24.Location = new System.Drawing.Point(225, 128);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(35, 30);
-            this.label24.TabIndex = 16;
-            this.label24.Text = "E";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(381, 534);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(98, 38);
-            this.btnCancel.TabIndex = 13;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // label25
-            // 
-            this.label25.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label25.Location = new System.Drawing.Point(173, 128);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(35, 30);
-            this.label25.TabIndex = 15;
-            this.label25.Text = "D";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.groupBox3);
-            this.groupBox2.Controls.Add(this.radioButton6);
-            this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.tbKey);
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Location = new System.Drawing.Point(6, 151);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(473, 377);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Playfair key";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label29);
-            this.groupBox3.Controls.Add(this.label30);
-            this.groupBox3.Controls.Add(this.label31);
-            this.groupBox3.Controls.Add(this.label32);
-            this.groupBox3.Controls.Add(this.label33);
-            this.groupBox3.Controls.Add(this.label34);
-            this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Controls.Add(this.label19);
-            this.groupBox3.Controls.Add(this.label20);
-            this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Controls.Add(this.label22);
-            this.groupBox3.Controls.Add(this.label23);
-            this.groupBox3.Controls.Add(this.label24);
-            this.groupBox3.Controls.Add(this.label25);
-            this.groupBox3.Controls.Add(this.label26);
-            this.groupBox3.Controls.Add(this.label27);
-            this.groupBox3.Controls.Add(this.label28);
-            this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.label16);
-            this.groupBox3.Controls.Add(this.lbl06);
-            this.groupBox3.Controls.Add(this.lbl05);
-            this.groupBox3.Controls.Add(this.lbl03);
-            this.groupBox3.Controls.Add(this.lbl02);
-            this.groupBox3.Controls.Add(this.lbl01);
-            this.groupBox3.Controls.Add(this.lbl00);
-            this.groupBox3.Location = new System.Drawing.Point(11, 88);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(374, 269);
-            this.groupBox3.TabIndex = 10;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Key matrix";
-            // 
-            // label26
-            // 
-            this.label26.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label26.Location = new System.Drawing.Point(121, 128);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(35, 30);
-            this.label26.TabIndex = 14;
-            this.label26.Text = "C";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label27
-            // 
-            this.label27.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label27.Location = new System.Drawing.Point(70, 128);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(35, 30);
-            this.label27.TabIndex = 13;
-            this.label27.Text = "B";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label28
-            // 
-            this.label28.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label28.Location = new System.Drawing.Point(23, 128);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(35, 30);
-            this.label28.TabIndex = 12;
-            this.label28.Text = "A";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label11
-            // 
-            this.label11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label11.Location = new System.Drawing.Point(282, 81);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(35, 30);
-            this.label11.TabIndex = 11;
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label12
-            // 
-            this.label12.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label12.Location = new System.Drawing.Point(225, 81);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(35, 30);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "E";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label13
-            // 
-            this.label13.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label13.Location = new System.Drawing.Point(173, 81);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(35, 30);
-            this.label13.TabIndex = 9;
-            this.label13.Text = "D";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label14.Location = new System.Drawing.Point(121, 81);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(35, 30);
-            this.label14.TabIndex = 8;
-            this.label14.Text = "C";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label15
-            // 
-            this.label15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label15.Location = new System.Drawing.Point(70, 81);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 30);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "B";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label16
-            // 
-            this.label16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label16.Location = new System.Drawing.Point(23, 81);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(35, 30);
-            this.label16.TabIndex = 6;
-            this.label16.Text = "A";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl06
-            // 
-            this.lbl06.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl06.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl06.Location = new System.Drawing.Point(282, 30);
-            this.lbl06.Name = "lbl06";
-            this.lbl06.Size = new System.Drawing.Size(35, 30);
-            this.lbl06.TabIndex = 5;
-            this.lbl06.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl05
-            // 
-            this.lbl05.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl05.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl05.Location = new System.Drawing.Point(225, 30);
-            this.lbl05.Name = "lbl05";
-            this.lbl05.Size = new System.Drawing.Size(35, 30);
-            this.lbl05.TabIndex = 4;
-            this.lbl05.Text = "E";
-            this.lbl05.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl03
-            // 
-            this.lbl03.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl03.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl03.Location = new System.Drawing.Point(173, 30);
-            this.lbl03.Name = "lbl03";
-            this.lbl03.Size = new System.Drawing.Size(35, 30);
-            this.lbl03.TabIndex = 3;
-            this.lbl03.Text = "D";
-            this.lbl03.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl02
-            // 
-            this.lbl02.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl02.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl02.Location = new System.Drawing.Point(121, 30);
-            this.lbl02.Name = "lbl02";
-            this.lbl02.Size = new System.Drawing.Size(35, 30);
-            this.lbl02.TabIndex = 2;
-            this.lbl02.Text = "C";
-            this.lbl02.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl01
-            // 
-            this.lbl01.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl01.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl01.Location = new System.Drawing.Point(70, 30);
-            this.lbl01.Name = "lbl01";
-            this.lbl01.Size = new System.Drawing.Size(35, 30);
-            this.lbl01.TabIndex = 1;
-            this.lbl01.Text = "B";
-            this.lbl01.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl00
-            // 
-            this.lbl00.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl00.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl00.Location = new System.Drawing.Point(23, 30);
-            this.lbl00.Name = "lbl00";
-            this.lbl00.Size = new System.Drawing.Size(35, 30);
-            this.lbl00.TabIndex = 0;
-            this.lbl00.Text = "A";
-            this.lbl00.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.btnImport);
             this.groupBox1.Controls.Add(this.tbEncrypt);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.tbPreformatting);
@@ -591,11 +657,29 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Input/output";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(398, 52);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 57);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Export";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // btnImport
+            // 
+            this.btnImport.Location = new System.Drawing.Point(398, 23);
+            this.btnImport.Name = "btnImport";
+            this.btnImport.Size = new System.Drawing.Size(75, 23);
+            this.btnImport.TabIndex = 7;
+            this.btnImport.Text = "Import";
+            this.btnImport.UseVisualStyleBackColor = true;
+            // 
             // tbEncrypt
             // 
             this.tbEncrypt.Location = new System.Drawing.Point(81, 89);
             this.tbEncrypt.Name = "tbEncrypt";
-            this.tbEncrypt.Size = new System.Drawing.Size(386, 20);
+            this.tbEncrypt.Size = new System.Drawing.Size(304, 20);
             this.tbEncrypt.TabIndex = 6;
             // 
             // label3
@@ -611,8 +695,9 @@
             // 
             this.tbPreformatting.Location = new System.Drawing.Point(81, 54);
             this.tbPreformatting.Name = "tbPreformatting";
-            this.tbPreformatting.Size = new System.Drawing.Size(386, 20);
+            this.tbPreformatting.Size = new System.Drawing.Size(304, 20);
             this.tbPreformatting.TabIndex = 4;
+            this.tbPreformatting.Text = "AN TO AN MA NG MA YT IN HX";
             // 
             // label2
             // 
@@ -636,18 +721,29 @@
             // 
             this.tbInput.Location = new System.Drawing.Point(81, 25);
             this.tbInput.Name = "tbInput";
-            this.tbInput.Size = new System.Drawing.Size(386, 20);
+            this.tbInput.Size = new System.Drawing.Size(304, 20);
             this.tbInput.TabIndex = 1;
+            this.tbInput.Text = "an toan mang may tinh";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(491, 610);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Hill";
             // 
             // Simulator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(503, 610);
+            this.ClientSize = new System.Drawing.Size(503, 642);
             this.Controls.Add(this.tabControl1);
             this.Name = "Simulator";
-            this.Text = "Playfair ciper Simulator";
+            this.Text = "Simulator";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -668,32 +764,32 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label lbl06;
+        private System.Windows.Forms.Label lbl45;
+        private System.Windows.Forms.Label lbl44;
+        private System.Windows.Forms.Label lbl43;
+        private System.Windows.Forms.Label lbl42;
+        private System.Windows.Forms.Label lbl41;
+        private System.Windows.Forms.Label lbl40;
+        private System.Windows.Forms.Label lbl35;
+        private System.Windows.Forms.Label lbl34;
+        private System.Windows.Forms.Label lbl33;
+        private System.Windows.Forms.Label lbl32;
+        private System.Windows.Forms.Label lbl31;
+        private System.Windows.Forms.Label lbl30;
+        private System.Windows.Forms.Label lbl25;
+        private System.Windows.Forms.Label lbl24;
+        private System.Windows.Forms.Label lbl23;
+        private System.Windows.Forms.Label lbl22;
+        private System.Windows.Forms.Label lbl21;
+        private System.Windows.Forms.Label lbl20;
+        private System.Windows.Forms.Label lbl15;
+        private System.Windows.Forms.Label lbl14;
+        private System.Windows.Forms.Label lbl13;
+        private System.Windows.Forms.Label lbl12;
+        private System.Windows.Forms.Label lbl11;
+        private System.Windows.Forms.Label lbl10;
         private System.Windows.Forms.Label lbl05;
+        private System.Windows.Forms.Label lbl04;
         private System.Windows.Forms.Label lbl03;
         private System.Windows.Forms.Label lbl02;
         private System.Windows.Forms.Label lbl01;
@@ -711,6 +807,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbInput;
         private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Label lbl55;
+        private System.Windows.Forms.Label lbl54;
+        private System.Windows.Forms.Label lbl53;
+        private System.Windows.Forms.Label lbl52;
+        private System.Windows.Forms.Label lbl51;
+        private System.Windows.Forms.Label lbl50;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnImport;
     }
 }
 
