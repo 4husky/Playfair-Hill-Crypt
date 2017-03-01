@@ -19,6 +19,8 @@ namespace PlayfairCiperSimulator
         //Chuỗi pre-formatting dùng để test hàm mã hóa- chuỗi này chỉ dùng để test -
         string[] pre_formatTEXT =new string[18] { "A", "N", "T", "O", "A", "N", "M", "A", "N", "G", "M", "A", "Y", "T", "I", "N", "H", "X" };
         //string[] alphabet66 =new string[36] //dùng cả chữ J và thêm số từ 0 tới 9     
+
+
         //Hàm loop kết quả ra UI cho ma trận 5x5
         public void LoopToUI55()
         {
@@ -71,6 +73,30 @@ namespace PlayfairCiperSimulator
             //Nhấn check 5x5 trên UI
             tbKey.Text = "KEYISANT";
             radioButton5.Checked = true;
+        }
+
+        //Hàm tách chuỗi thành mảng ký tứ
+        private List<char> SplitString(string text)
+        {
+            List<char> CharsList = new List<char>(text.ToCharArray());
+            CharsList.RemoveAll(space => space == ' ');
+            int first = 0;
+            int second = first + 1;
+            while (second < CharsList.Count)
+            {
+                if (CharsList.ElementAt(first) == CharsList.ElementAt(second))
+                {
+                    if (CharsList.ElementAt(first) == 'X')
+                        CharsList.Insert(second, 'Q');
+                    else CharsList.Insert(second, 'X');
+                }
+                first += 2;
+                second += 2;
+            }
+
+            if ((CharsList.Count % 2) != 0)
+                CharsList.Add('Q');
+            return CharsList;
         }
 
         #region Thuật toán mã hóa
