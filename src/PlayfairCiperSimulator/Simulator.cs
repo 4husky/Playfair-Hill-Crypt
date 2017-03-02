@@ -75,13 +75,26 @@ namespace PlayfairCiperSimulator
             radioButton5.Checked = true;
         }
 
-        //Hàm tách chuỗi thành mảng ký tứ
+        //Hàm tách chuỗi thành mảng ký tự
+        //Input: String of text
+        //Ouput: List of characters from input text
+        //Usage: Split input text into a list of characters
+        //following Playfair rules.
+
         private List<char> SplitString(string text)
         {
             List<char> CharsList = new List<char>(text.ToCharArray());
+
+            //Remove white space from the string
             CharsList.RemoveAll(space => space == ' ');
-            int first = 0;
-            int second = first + 1;
+
+            //Split string into chunks of two letters
+            int first = 0; //Indicate the first letter
+            int second = first + 1;//Indicate the second letter
+
+            //Go through the list, compare two letter in a chunk, if they're the same
+            //insert 'X' or 'Q' between
+
             while (second < CharsList.Count)
             {
                 if (CharsList.ElementAt(first) == CharsList.ElementAt(second))
@@ -94,8 +107,14 @@ namespace PlayfairCiperSimulator
                 second += 2;
             }
 
+
+            //If the number of letters is odd, add 'X' or 'Q' at the end of list.
             if ((CharsList.Count % 2) != 0)
-                CharsList.Add('Q');
+  			{
+  				if (CharsList.Last() == 'Q')
+  					CharsList.Add('X');
+  				else CharsList.Add('Q');			
+  			}
             return CharsList;
         }
 
