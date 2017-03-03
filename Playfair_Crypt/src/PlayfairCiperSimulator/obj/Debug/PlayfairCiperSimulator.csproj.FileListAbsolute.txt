@@ -49,3 +49,6 @@ C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\ru\DevE
 C:\Users\DELL\Desktop\New folder_3\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\bin\Debug\PlayfairCiperSimulator.exe.config
 C:\Users\DELL\Desktop\New folder_3\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.exe
 C:\Users\DELL\Desktop\New folder_3\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.pdb
+D:\An toàn mạng máy tính\Projects\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\bin\Debug\PlayfairCiperSimulator.exe.config
+D:\An toàn mạng máy tính\Projects\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.exe
+D:\An toàn mạng máy tính\Projects\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.pdb

@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Matrix55.cs" />
+    <Compile Include="Matrix66.cs" />
     <Compile Include="Simulator.cs">
       <SubType>Form</SubType>
     </Compile>
