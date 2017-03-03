@@ -46,3 +46,6 @@ C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\de\DevE
 C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\es\DevExpress.XtraEditors.v15.1.resources.dll
 C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\ja\DevExpress.XtraEditors.v15.1.resources.dll
 C:\Users\DELL\Desktop\PlayfairCrypt\src\PlayfairCiperSimulator\bin\Debug\ru\DevExpress.XtraEditors.v15.1.resources.dll
+C:\Users\DELL\Desktop\New folder_3\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\bin\Debug\PlayfairCiperSimulator.exe.config
+C:\Users\DELL\Desktop\New folder_3\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.exe
+C:\Users\DELL\Desktop\New folder_3\Playfair-Hill-Crypt\Playfair_Crypt\src\PlayfairCiperSimulator\obj\Debug\PlayfairCiperSimulator.pdb
