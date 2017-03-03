@@ -107,7 +107,7 @@ namespace PlayfairCiperSimulator
         }
         //Các hàm sẽ lấy tọa độ chữ cái cần mã hóa và xử lý, xuất kết quả vào biến cipher1 & 2.
         //Hàm xử lý nếu 2 chữ cái cùng hàng
-        public void SameRow(string cipher1,int c1,string cipher2,int c2,int Row)
+        public void encryptSameRow(string cipher1,int c1,string cipher2,int c2,int Row)
         {
             //Hàm xử lý cùng hàng, vì cùng hàng nên chỉ cần xem xét dịch chuyển cột
             c1++; c2++;
@@ -125,7 +125,7 @@ namespace PlayfairCiperSimulator
             cipher2 = _matrix55[Row, c2];
         }
         //Hàm xử lý nếu 2 chữ cái cùng cột
-        public void SameColumn(string cipher1,int r1,string cipher2,int r2,int Column)
+        public void encryptSameColumn(string cipher1,int r1,string cipher2,int r2,int Column)
         {
             r1++; r2++;
             if(r1 < r2)
